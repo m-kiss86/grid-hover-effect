@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <section class="container">
+      <div class="mask">
+        <div class="wrap">
+          <div class="row small-up-3 medium-up-4 large-up-6 container_row">
+            <div class="column">
+                <a href="#" id="1"><img src="img/image.svg" class="image"></a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div><div class="column">
+                <a href="#"><img src="img/image.svg" class="image"></a>
+            </div>
+          </div>
+          <div class="quote_wrap">
+            <div class="quote"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function Profile(n,q){
+        this.name = n;
+        this.quote = q;
+      }
+      var names = new Array();
+      var quotes = new Array();
+      var profiles = new Array();
+
+      for (var i=0; i< 12; i++){
+        if(i%2 == 0)
+        {
+          names[i] = "ODD";
+        }else{
+          names[i] = "EVEN";
+        }
+      }
+
+      for(var i=0; i<12; i++){
+        if(i%2 == 0)
+        {
+          quotes[i] = "This is so ODD!";
+        }else{
+          quotes[i] = "This is so EVEN!";
+        }
+      }
+
+      for(var i=0; i<names.length;i++)
+      {
+        var person = new Profile(names[i],quotes[i]);
+        profiles[i] = person;
+      }
+    </script>
+    <script src="js/app.js"></script>
+    <script src="js/hover.js"></script>
+  </body>
+</html>

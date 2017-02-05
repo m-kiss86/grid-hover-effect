@@ -1,0 +1,39 @@
+.wrap{
+  width: 65%;
+  margin: 0 auto;
+}
+.mask{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 0 100px 0;
+}
+.column{
+  padding: 0 0.4%;
+}
+.container .column{
+  margin-top: 0.8em;
+}
+.container a{
+  display: block;
+}
+img.image{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+.hovered{
+  opacity: 0.4;
+}
+.container p{
+  margin-top: 5px;
+}
+.quote{
+  opacity: 0;
+}
+.quote_wrap{
+  height: 20px;
+  margin-top: 30px;
+}
+.quote h6{
+  margin-bottom: 0;
+  font-weight: bold;
+}
